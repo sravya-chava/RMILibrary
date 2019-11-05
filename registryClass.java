@@ -7,7 +7,7 @@ import java.net.*;
 import  java.io.*;
 import java.lang.*;
 public class registryClass implements Serializable {
-	//added new line samineni
+	//added new line
     static HashMap<String,Object> h = new HashMap<String,Object>();
     public static void main(String args[]) throws IOException {
         InetAddress ip = InetAddress.getByName("localhost");
